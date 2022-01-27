@@ -1,0 +1,33 @@
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 20px;
+  border-bottom: 1px solid rgb(221, 219, 219);
+}
+
+.logo a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.options{
+  display: flex;
+}
+.options a{
+  text-decoration: none;
+  color: blue;
+  padding: 0 10px;
+}
+
+
+@media only screen and (max-width:720px){
+  .nav{
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,36 @@
+.card{
+  width: 20rem;
+  background: rgb(192,187,247);
+  background: linear-gradient(14deg, rgba(192,187,247,0.3368697820925245) 6%, rgba(232,244,239,0.1183823871345413) 49%);
+  transition: .7s;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 5px rgba(93, 94, 95, 0.6);
+}
+
+.card:hover{
+  opacity: .8;
+}
+
+.card-body{
+  max-width: 80%;
+}
+
+@media only screen and (max-width:720px){
+  .card{
+    width: 15rem;
+  }
+  .card-body{
+    max-width: 100%;
+  }
+  .card-text{
+    font-size: .8rem;
+  }
+  .card:hover{
+    opacity: 1;
+  }
+}
