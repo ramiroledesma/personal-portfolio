@@ -11,7 +11,7 @@ const Main = () => {
         <p>This site will host some information about me and also my projects.</p>
       </div>
       <div className={styles.download}>
-        <a download href={require('../assets/cv/resume.pdf')} className="btn btn-secondary">
+        <a download href={require('../assets/cv/cv.pdf')} className="btn btn-secondary">
           <i className='fi-rr-cloud-download download-icon' />
           Download Resume
         </a>
